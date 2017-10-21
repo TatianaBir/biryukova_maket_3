@@ -2,6 +2,20 @@
 		font-family: 'Work Sans', sans-serif;
 		font-size: 14px;
 	}
+	.cont-menu,
+	.content-aboutus,
+	.wedo-content,
+	.team-content,
+	.offer-content,
+	.repaire-content,
+	.pricing-content,
+	.client-content,
+	.contact,
+	.info-content,
+	.footer-content {
+		margin: 0 auto;
+		max-width: 1350px;
+	}
 
 /*common style*/
 
@@ -855,7 +869,7 @@
 		background-color: #00ACEE;
 	}
 
-	.info div div:first-of-type {
+	.info-content div div:first-of-type {
 		margin-right: 1em;
 		width: 120px;
 	    height: 80px;
@@ -868,7 +882,7 @@
 	    transition-duration: 0.3s;
 	}
 
-	.info>div {
+	.info-content>div {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -893,7 +907,7 @@
 		line-height: 80px;
 	}
 
-	.info div div:first-of-type:before {
+	.info-content div div:first-of-type:before {
 	    content: "";
 	    position: absolute;
 	    z-index: -1;
@@ -908,7 +922,7 @@
 	    transition-timing-function: ease-out;
 	}
 
-    .info div div:first-of-type:hover:before {
+    .info-content div div:first-of-type:hover:before {
     	transform: scale(2);
 	}
 
